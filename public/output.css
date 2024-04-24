@@ -654,12 +654,17 @@ video {
   background-color: rgb(22 25 24 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\.\/public\/image\/footer\.png\'\)\] {
-  background-image: url('../public/image/footer.png');
+.bg-gg {
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 190 94 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\.\/public\/image\/patternoutline1\.png\'\)\] {
-  background-image: url('../public/image/patternoutline1.png');
+.bg-\[url\(\'\.\/image\/footer\.png\'\)\] {
+  background-image: url('./image/footer.png');
+}
+
+.bg-\[url\(\'\.\/image\/patternoutline1\.png\'\)\] {
+  background-image: url('./image/patternoutline1.png');
 }
 
 .bg-\[url\(\'\.\/image\/people\.png\'\)\] {
@@ -947,6 +952,39 @@ video {
 
   .lg\:px-\[40px\] {
     padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .lg\:py-\[167px\] {
+    padding-top: 167px;
+    padding-bottom: 167px;
+  }
+
+  .lg\:py-\[64px\] {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .lg\:pb-\[64px\] {
+    padding-bottom: 64px;
+  }
+
+  .lg\:pl-\[20px\] {
+    padding-left: 20px;
+  }
+
+  .lg\:pt-\[115\.8px\] {
+    padding-top: 115.8px;
+  }
+
+  .lg\:text-center {
+    text-align: center;
+  }
+
+  .lg\:text-\[18px\] {
+    font-size: 18px;
+  }
+}g-left: 40px;
     padding-right: 40px;
   }
 
