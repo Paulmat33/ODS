@@ -584,6 +584,31 @@ video {
   height: 2.75rem;
 }
 
+.size-1 {
+  width: 0.25rem;
+  height: 0.25rem;
+}
+
+.size-12 {
+  width: 3rem;
+  height: 3rem;
+}
+
+.size-9 {
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+.size-0 {
+  width: 0px;
+  height: 0px;
+}
+
+.size-8 {
+  width: 2rem;
+  height: 2rem;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -665,52 +690,28 @@ video {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
-.bg-\[url\(\'\.\/imag\'\)\] {
-  background-image: url('./imag');
-}
-
-.bg-\[url\(\'\.\/\'\)\] {
-  background-image: url('./');
+.bg-\[url\(\'\.\/image\/patterno\.png\'\)\] {
+  background-image: url('./image/patterno.png');
 }
 
 .bg-\[url\(\'\'\)\] {
   background-image: url('');
 }
 
-.bg-\[url\(\'\.\/i\'\)\] {
-  background-image: url('./i');
-}
-
-.bg-\[url\(\'\.\/image\'\)\] {
-  background-image: url('./image');
+.bg-\[url\(\'\.\/ima\'\)\] {
+  background-image: url('./ima');
 }
 
 .bg-\[url\(\'\.\/image\/\'\)\] {
   background-image: url('./image/');
 }
 
-.bg-\[url\(\'\.\/image\/pa\'\)\] {
-  background-image: url('./image/pa');
+.bg-\[url\(\'\.\/image\/patter\'\)\] {
+  background-image: url('./image/patter');
 }
 
 .bg-\[url\(\'\.\/image\/patternoutline1\'\)\] {
   background-image: url('./image/patternoutline1');
-}
-
-.bg-\[url\(\'\.\/image\/patternoutline1\.\'\)\] {
-  background-image: url('./image/patternoutline1.');
-}
-
-.bg-\[url\(\'\.\/image\/patternoutline1\.p\'\)\] {
-  background-image: url('./image/patternoutline1.p');
-}
-
-.bg-\[url\(\'\.\/image\/patterno\.png\'\)\] {
-  background-image: url('./image/patterno.png');
-}
-
-.bg-\[url\(\'\.\/ima\'\)\] {
-  background-image: url('./ima');
 }
 
 .bg-\[url\(\'\.\/image\/outline\.png\'\)\] {
@@ -719,6 +720,14 @@ video {
 
 .bg-\[url\(\'\.\/image\/outlin\.png\'\)\] {
   background-image: url('./image/outlin.png');
+}
+
+.bg-\[url\(\'\.\/\'\)\] {
+  background-image: url('./');
+}
+
+.bg-\[url\(\'\.\/image\'\)\] {
+  background-image: url('./image');
 }
 
 .bg-\[url\(\'\.\/image\/outline\'\)\] {
@@ -775,6 +784,11 @@ video {
 .py-\[32px\] {
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+.py-\[48px\] {
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .pb-3 {
@@ -843,6 +857,26 @@ video {
 
 .pt-\[70\.91px\] {
   padding-top: 70.91px;
+}
+
+.pt-\[\] {
+  padding-top: ;
+}
+
+.pt-\[5px\] {
+  padding-top: 5px;
+}
+
+.pb-\[\] {
+  padding-bottom: ;
+}
+
+.pb-\[30px\] {
+  padding-bottom: 30px;
+}
+
+.pb-\[30p\] {
+  padding-bottom: 30p;
 }
 
 .text-center {
